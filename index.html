@@ -225,24 +225,168 @@
         <!-- popular courses ends -->
 
         <!-- Ready to join starts  -->
-        <section class="container">
-            <div class="row gx-5 bg-primary ">
-                <div class="col-lg-8">
-                    <div class="p-3 text-center">
+        <section class="container mb-5">
+            <div class="row gx-2 bg-primary p-5 ">
+                <div class="col-lg-8  d-flex align-items-center">
+                    <div class="p-3 ">
                         <h1 style="color: white;">Ready to join?</h1>
                         <p style="color: white;">Instructors from around the world teach millions of students on Udemy.
                             We provide the tools
                             and skills to teach what you love.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="p-3 d-flex align-items-center">
-                        <button type="button" class="btn btn-light btn-lg">Register Now</button>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn- fw-bolder bg-light text-primary px-5 py-3"
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
         </section>
         <!-- Ready to join ends  -->
+
+        <!-- FAQ starts  -->
+        <section class="container">
+            <h1 class="text-center">Frequently Asked Questions</h1>
+            <p class="text-center">Here are some common questions for you guys.Please have a look and ask more questions
+                to us</p>
+
+            <!-- Accordion  -->
+            <div class="accordion my-5" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Flex vs Grid
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <strong> The basic difference between CSS Grid
+                                Layout and CSS Flexbox Layout is</strong> that flexbox was designed for layout in one
+                            dimension - either
+                            a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the
+                            same
+                            time. The two specifications share some common features, however, and if you have already
+                            learned how to use flexbox, the similarities should help you get to grips with
+                            Grid.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Bootstrap vs Tailwind
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <strong>The significant difference between Tailwind CSS and Bootstrap is </strong> that
+                            Tailwind
+                            offers predesigned widgets to build a site from scratch with fast UI development, while
+                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a
+                            definite UI kit.
+
+                            The main issue with Bootstrap is that developers have to rely merely on specific abstracted
+                            patterns. It compels to override the framework with custom CSS that utterly defeats the
+                            purpose
+                            of using a framework in the first place.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            CSS Box Model
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <strong> When laying out a document, </strong>the browser's rendering engine represents each
+                            element as a rectangular box according to the standard CSS basic box model. CSS determines
+                            the
+                            size, position, and properties (color, background, border size, etc.) of these boxes.
+
+                            Every box is composed of four parts (or areas), defined by their respective edges: the
+                            content
+                            edge, padding edge, border edge, and margin edge.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            What is Semantic tag in HTML5?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <strong>HTML tags are classified in two types,</strong>
+
+
+                            Semantic
+                            Non-Semantic
+                            Semantic Elements: Semantic elements have meaningful names which tells about type of
+                            content.
+                            For example header, footer, table, … etc. HTML5 introduces many semantic elements as
+                            mentioned
+                            below which make the code easier to write and understand for the developer as well as
+                            instructs
+                            the browser on how to treat them.
+
+
+                            article
+                            aside
+                            details
+                            figcaption
+                            figure
+                            footer
+                            header
+                            main
+                            mark
+                            nav
+                            section
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ ends  -->
     </main>
     <footer></footer>
 
